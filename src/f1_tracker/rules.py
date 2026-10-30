@@ -1,6 +1,7 @@
 """Module holding the customisable rules for the tracker."""
 
 from dataclasses import dataclass
+
 from f1_tracker.models import RaceResult, SessionType
 
 

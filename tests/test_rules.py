@@ -1,7 +1,7 @@
 """Tests for rules.py"""
 
-from f1_tracker.rules import FASTEST_LAP_ERA_POINTS_SYSTEM, NO_FASTEST_LAP_POINTS_SYSTEM, points_for
 from f1_tracker.models import RaceResult, ResultStatus, SessionType
+from f1_tracker.rules import FASTEST_LAP_ERA_POINTS_SYSTEM, NO_FASTEST_LAP_POINTS_SYSTEM, points_for
 
 
 def test_winner_scores_25() -> None:
